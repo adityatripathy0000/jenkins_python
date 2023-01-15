@@ -8,7 +8,7 @@ pipeline {
     }
     stage('time') {
       steps {
-        sh 'python current.py'
+        sh 'python current_time.py'
       }
     }
   }
