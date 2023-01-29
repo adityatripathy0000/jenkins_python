@@ -11,7 +11,7 @@ pipeline {
         echo 'Stage Test triggered : %date% : %time%'
       }
     }
-	stage('Deploy') {
+    stage('Deploy') {
       steps {
         echo 'Stage Deploy triggered : %date% : %time%'
       }
