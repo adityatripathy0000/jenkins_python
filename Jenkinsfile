@@ -5,18 +5,18 @@ node {
   stage('Build') {
     //Perform some steps related to the "Build" stage.
     echo "Running Build";
-    bat "Build.bat"
+    bat 'Build,bat'
   }
   //Defines the "Test" stage.
   stage('Test') {
     //Perform some steps related to the "Test" stage.
     echo "Running Test";
-    bat "Test.bat"
+    bat 'Test,bat'
   }
   //Defines the "Deploy" stage.
   stage('Deploy') {
     //Perform some steps related to the "Deploy" stage.
     echo "Running Deploy";
-    bat "Deploy.bat"
+    bat 'Deploy,bat'
   }
 }
