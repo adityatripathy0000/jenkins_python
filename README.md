@@ -1,4 +1,4 @@
-# Declarative syntax in Jenkinsfile
+# Scripted syntax in Jenkinsfile
 
 ### Pipeline:
 * A Pipeline is a user-defined model of a CD pipeline. A Pipeline’s code defines your entire build process, which typically includes stages for building an application, testing it and then delivering it.
