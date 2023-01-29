@@ -1,0 +1,1 @@
+echo "Stage Build triggered : %date% : %time%"

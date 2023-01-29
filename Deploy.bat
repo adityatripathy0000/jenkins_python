@@ -1,0 +1,1 @@
+echo "Stage Deploy triggered : %date% : %time%"

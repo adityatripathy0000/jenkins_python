@@ -1,0 +1,1 @@
+echo "Stage Test triggered : %date% : %time%"
