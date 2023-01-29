@@ -6,21 +6,24 @@ pipeline {
     stage('Build') {
       steps {
         //Perform some steps related to the "Build" stage.
-        echo "Stage Build triggered : %Date% : %Time%"
+        echo "Running Build"
+        bat 'Build.bat'
       }
     }
     //Defines the "Test" stage.
     stage('Test') {
       steps {
         //Perform some steps related to the "Test" stage.
-        echo "Stage Test triggered : %Date% : %Time%"
+        echo "Running Test"
+        bat 'Test.bat'
       }
     }
     //Defines the "Deploy" stage.
     stage('Deploy') {
       steps {
         //Perform some steps related to the "Deploy" stage.
-        echo "Stage Deploy triggered : %Date% : %Time%"
+        echo "Running Deploy"
+        bat 'Deploy.bat'
       }
     }
   }
