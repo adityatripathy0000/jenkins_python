@@ -4,19 +4,19 @@ node {
   //However, implementing stage blocks in a Scripted Pipeline provides clearer visualization of each `stage’s subset of tasks/steps in the Jenkins UI.
   stage('Build') {
     //Perform some steps related to the "Build" stage.
-    echo "Running Build";
+    echo "Running Build"
     bat 'Build.bat'
   }
   //Defines the "Test" stage.
   stage('Test') {
     //Perform some steps related to the "Test" stage.
-    echo "Running Test";
+    echo "Running Test"
     bat 'Test.bat'
   }
   //Defines the "Deploy" stage.
   stage('Deploy') {
     //Perform some steps related to the "Deploy" stage.
-    echo "Running Deploy";
+    echo "Running Deploy"
     bat 'Deploy.bat'
   }
 }
