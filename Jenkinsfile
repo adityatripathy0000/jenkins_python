@@ -1,14 +1,19 @@
 pipeline {
   agent any
   stages {
-    stage('version') {
+    stage('Build') {
       steps {
-        sh 'C:/Users/adity/AppData/Local/Programs/Python/Python310/python --version'
+        echo 'Stage Build triggered : %date% : %time%'
       }
     }
-    stage('time') {
+    stage('Test') {
       steps {
-        sh 'C:/Users/adity/AppData/Local/Programs/Python/Python310/python current_time.py'
+        echo 'Stage Test triggered : %date% : %time%'
+      }
+    }
+	stage('Deploy') {
+      steps {
+        echo 'Stage Deploy triggered : %date% : %time%'
       }
     }
   }
