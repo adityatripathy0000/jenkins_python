@@ -3,12 +3,12 @@ pipeline {
   stages {
     stage('version') {
       steps {
-        bat 'python --version'
+        bat 'C:/Users/adity/AppData/Local/Programs/Python/Python310/python --version'
       }
     }
     stage('time') {
       steps {
-        bat 'python current_time.py'
+        bat 'C:/Users/adity/AppData/Local/Programs/Python/Python310/python current_time.py'
       }
     }
   }
